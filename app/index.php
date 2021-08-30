@@ -11,7 +11,7 @@ $app = new \Slim\App([]);
 
 
 $app->get('[/]', function (Request $request, Response $response) {    
-    $response->getBody()->write("Bienvenidos - Programacion 3");
+    $response->getBody()->write("Bienvenidos - Programacion 3 -  2C2021");
     return $response;
 
 });
